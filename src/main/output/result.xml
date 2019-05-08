@@ -1,0 +1,18 @@
+<Sentences>
+    <Sentence date="20080804" id="AFE19940512.0005_4890" source="Empty" sentence="True">
+        <Text>
+            Liverpool vs Barcelona
+        </Text>
+        <Parse>
+            (ROOT (NP (NP (NP (NNP Liverpool)) (SBAR (S (NP (CC vs))))) (NP (NNP Barcelona))))
+        </Parse>
+    </Sentence>
+    <Sentence date="20080804" id="AFE19940512.0003_4909" source="Empty" sentence="True">
+        <Text>
+            My name is Nimish
+        </Text>
+        <Parse>
+            (ROOT (S (NP (PRP$ My) (NN name)) (VP (VBZ is) (ADJP (JJ Nimish)))))
+        </Parse>
+    </Sentence>
+</Sentences>

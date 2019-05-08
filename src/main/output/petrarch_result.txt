@@ -1,0 +1,49 @@
+Namespace(command_name='batch', config=None, inputs='./src/main/output/result.xml', nullactors=False, nullverbs=False, outputs=None)
+
+ new_actor_length = 0
+stop_on_error = False
+write_actor_root = False
+write_actor_text = True
+write_event_text = True
+null_verbs = False
+null_actors = False
+require_dyad = True
+code-by-sentence True
+pause_by_sentence False
+pause_by_story False
+Comma-delimited clause elimination:
+Initial : deactivated
+Internal: min = 2    max = 8
+Terminal: min = 2    max = 8
+Verb dictionary: CAMEO.2.0.txt
+Undefined synset &FIGHT_CRIM
+Undefined synset &FIGHT_GAMES
+Undefined synset &WEATHER
+Undefined synset &DEMONSTRATION
+Undefined synset FIGHTER_&AIRCRAFT
+Actor dictionaries: [u'Phoenix.Countries.actors.txt', u'Phoenix.International.actors.txt', u'Phoenix.MilNonState.actors.txt']
+Agent dictionary: Phoenix.agents.txt
+Discard dictionary: Phoenix.discards.txt
+Issues dictionary: Phoenix.IssueCoding.txt
+
+
+
+
+
+Processing story AFE19940512.0003
+
+ AFE19940512.0003_4909
+ MY NAME IS NIMISH
+
+
+Processing story AFE19940512.0005
+
+ AFE19940512.0005_4890
+ LIVERPOOL VS BARCELONA
+
+Summary:
+Stories read: 2    Sentences coded: 2   Events generated: 0
+Discards:  Sentence 0   Story 0   Sentences without events: 2
+Average Coding time =  0.000114560127258
+Coding time: 0.00588703155518
+Finished
